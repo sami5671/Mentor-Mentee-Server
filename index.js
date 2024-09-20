@@ -8,7 +8,8 @@ const port = process.env.PORT || 5000;
 
 // middleware
 const corsOptions = {
-  origin: ["https://mentor-mentee-9d67b.web.app"],
+  // origin: ["https://mentor-mentee-9d67b.web.app"],
+  origin: ["http://localhost:5173"],
   credentials: true,
   optionSuccessStatus: 200,
 };
